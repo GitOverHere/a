@@ -1,0 +1,220 @@
+html body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	cursor: pointer;
+}
+
+.link:hover {
+	transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	color: green;
+}
+
+.header{
+	background-color: white;
+	width: 100%;
+	height: 8%;
+	position: fixed;
+}
+
+.logo{
+	float: left;
+	margin-left: 1vh;
+	width: 20%;
+}
+
+.hnav {
+	padding-top: 3vh;
+	width: 40%;
+	float: right;
+	color: grey;
+	font-size: 2vh;
+	height: 100%;
+	
+}
+
+.hnav a {
+margin-left: 2px;
+display: inline;
+margin-right: 7vh;
+float: right;
+}
+
+.user_logo {
+	padding: 1vh;
+}
+
+
+.home {
+	 background-image: url('https://i.pinimg.com/originals/bc/23/b9/bc23b955d467d91ccbcb21ba44dabf17.gif');
+	 width: 100%;
+	 height: auto;
+	 background-size: cover;
+	 padding-top: 20vh;
+	 padding-bottom: 20vh;
+}
+
+.center-container {
+	margin: 0 auto;
+	width: 75%;
+	height: 55%;
+	color: white;
+	font-size: 2vh;
+}
+
+.image {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+
+.image img {
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+
+.content {
+	float: right;
+height: 100%;
+width: 70%;	
+}
+
+.content-image {
+	width: 10vw;
+	height: 10vw;
+}
+
+.blog-posts {
+
+margin: 0 auto;
+width: 80%;
+height: 350px;	
+display: flex;
+padding: 2vh;
+grid-gap: 3vh;
+margin: 0 auto;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 5vh;
+}
+
+.blog {
+	width: 100%;
+	text-align: center;	
+	height: 60%;
+	background-color: #f0f0f0;
+}
+
+.post {
+	background-color: white;
+	box-shadow: 0.5vw 0.5vw 0.5vw grey;
+	width: 30%;
+	height: 100%;
+	padding-bottom: 2vh;
+}
+
+.post-img {
+	width: 100%;
+	height: 70%;
+	
+}
+.post-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.button {
+	cursor: pointer;
+}
+
+.red-button {
+	background-color: #ce181e;
+	color: white;
+	padding: 1vh;
+}
+
+.big-button {
+	background-color: #ce181e;
+	color: white;
+	padding: 2.5vh;
+}
+
+.green-button:hover {
+	background-color: #7f181b;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+}
+
+.big-button:hover {
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	background-color: #7f181b;
+}
+
+.donate {
+	padding-top: 2vh;
+	width: 100%;
+	height: 70%;
+	text-align: center;	
+	background-image: url("https://3.bp.blogspot.com/-u4iuuyiRIlc/WBcrtDi-QmI/AAAAAAAA9hM/aB-l-qk3FjIn7_fonKyiHeCwszXzmbOgwCLcB/s1600/What%2BSpecification%2BIs%2BRequired%2BFor%2BGaming.gif");
+	background-size:  cover;
+	color: white;
+}
+.donations {
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+	height: 25%;
+	margin-bottom: 5vh;
+	
+}
+
+.donate-container {
+	margin: 0 auto;
+	width: 30%;
+	height: 50%;
+	margin-top: 8vw;
+	vertical-align: middle;
+	border: 3px solid white;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 2vh;
+}
+.donors {
+
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.total-money {
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+.footer {
+	background-color: white;
+	text-align: center;
+}
+
+.yt {
+	height: 80%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
